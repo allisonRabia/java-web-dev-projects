@@ -47,12 +47,13 @@ public class HelloController {
         return "form";
     }
     @GetMapping("hello-names")
-    public String helloNames() {}
+    public String helloNames() {
         List<String> names = new ArrayList<>();
         names.add("LaunchCode");
         names.add("LaunchCode");
         names.add("LaunchCode");
         return "hello-list";
+    }
 }
 //
 //package org.launchcode.hello_spring.controllers;
